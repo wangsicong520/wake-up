@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  text-align: center;
+}
+.container {
+  padding: 10px;
+}
+.main-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.advantages {
+  margin: 20px 10px;
+}
+.advantages h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+.advantages p {
+  font-size: 16px;
+  color: #444;
+}
+.btn-group {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: rgba(255,255,255,0.95);
+  border-top: 1px solid #ddd;
+}
+.btn {
+  flex: 1;
+  margin: 0 6px;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+}
+.btn-green {
+  background: #25D366;
+}
+.btn-blue {
+  background: #007bff;
+}
